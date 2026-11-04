@@ -26,6 +26,14 @@ Mapping is defined in `default.project.json`:
 - `src/server/` → `ServerScriptService.Server` — server-only logic (checkpoints, race timing, data saving)
 - `src/client/` → `StarterPlayer.StarterPlayerScripts.Client` — client logic (UI, input, effects)
 - `src/shared/` → `ReplicatedStorage.Shared` — modules used by both server and client
+- `src/character/` → `StarterPlayer.StarterCharacterScripts` — movement LocalScripts (Locomotion, Dash, DoubleJump, WallRun). They sit directly in StarterCharacterScripts because they use `script.Parent` as the character.
+
+## The place
+
+- Work in **ObbyRace**, place ID `78292508794807` (experience/universe ID `10774652739`), owned by the group **LGAMES INC**.
+- `CharacterStats.RacePlaceIds` is keyed by **place ID** (`game.PlaceId`), not the experience ID.
+- The avatar type is **R6** (Game Settings → Avatar). Movement scripts and animations assume R6 body parts.
+- Animations only play if they're owned by **LGAMES INC**, the same owner as the place. Publish new animations to the group.
 
 ## File naming (Rojo conventions)
 

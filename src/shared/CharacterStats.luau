@@ -84,7 +84,6 @@ CharacterStats.Profiles = {
 -- Place IDs that use the Race profile. Every other place uses Lobby.
 -- Add your race place's ID here once it exists.
 CharacterStats.RacePlaceIds = {
-	[74521059370103] = true, -- ObbyRaceMovementTesting
 	[78292508794807] = true, -- ObbyRace (LGAMES INC), universe 10774652739
 }
 
