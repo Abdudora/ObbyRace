@@ -85,6 +85,7 @@ CharacterStats.Profiles = {
 -- Add your race place's ID here once it exists.
 CharacterStats.RacePlaceIds = {
 	[74521059370103] = true, -- ObbyRaceMovementTesting
+	[78292508794807] = true, -- ObbyRace (LGAMES INC), universe 10774652739
 }
 
 -- Stats that live on the Humanoid instead of as attributes
